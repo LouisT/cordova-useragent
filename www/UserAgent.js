@@ -9,7 +9,7 @@ var UserAgent = {
            cordova.exec(success, fail||noop, "UserAgent", "get", []);
          } else {
            return false;
-        };
+        }
     },
     reset: function (success, fail) {
         cordova.exec(success||noop, fail||noop, "UserAgent", "reset", []);

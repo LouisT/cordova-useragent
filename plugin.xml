@@ -7,7 +7,6 @@
 		<engine name="cordova" version=">=3.0.0" />
 	</engines>
 	<name>User-Agent</name>
-	<dependency id="org.apache.cordova.device" />
 	<description>Allows you to change your User-Agent for HTTP requests.</description>
 	<author>Louis T.</author>
 	<keywords>user,agent,useragent,user-agent</keywords>
