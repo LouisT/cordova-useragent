@@ -15,5 +15,5 @@ To set your User-Agent:<br />
 To get your current User-Agent:<br />
 `UserAgent.get(function(ua) { })`
 
-To set your User-Agent back to the default:
+To set your User-Agent back to the default:<br />
 `UserAgent.reset()`
