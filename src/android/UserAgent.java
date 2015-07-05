@@ -17,8 +17,18 @@ public class UserAgent extends CordovaPlugin {
 
         @Override
         public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-               super.initialize(cordova, webView);
-               settings = webView.getSettings();
+            
+            super.initialize(cordova, webView);
+
+            try{
+
+                settings = ((WebView) webView.getEngine().getView()).getSettings();
+
+            }catch (Exception error){
+
+                settings = null;
+
+            }
         }
 
         @Override
