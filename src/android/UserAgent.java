@@ -10,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.webkit.WebSettings;
+import android.webkit.WebView;
 
 public class UserAgent extends CordovaPlugin {
 
