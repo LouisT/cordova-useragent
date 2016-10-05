@@ -7,6 +7,7 @@ To install the plugin, use the Cordova CLI and enter the following:<br />
 
 ## Platforms ##
 - Android
+- iOS (9+, with [WKWebView plugin](https://github.com/apache/cordova-plugin-wkwebview-engine))
 
 ## Use ##
 To set your User-Agent:<br />
