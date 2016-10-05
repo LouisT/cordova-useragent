@@ -1,4 +1,4 @@
-# Cordova/PhoneGap UserAgent Plugin#
+# Cordova/PhoneGap UserAgent Plugin #
 Plugin for Cordova 3.0+ that allows you to change your User-Agent for HTTP requests.
 
 ## Adding the plugin to your project ##
