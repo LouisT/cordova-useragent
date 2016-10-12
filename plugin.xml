@@ -23,4 +23,16 @@
 		</config-file>
 		<source-file src="src/android/UserAgent.java" target-dir="src/im/ltdev/cordova/UserAgent" />
 	</platform>
+	<platform name="ios">
+		<plugins-plist key="UserAgent" string="UserAgent" />
+
+		<config-file target="config.xml" parent="/*">
+			<feature name="UserAgent">
+				<param name="ios-package" value="UserAgent" />
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/UserAgent.h" />
+		<source-file src="src/ios/UserAgent.m" />
+	</platform>
 </plugin>
