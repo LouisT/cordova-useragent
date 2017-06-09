@@ -1,0 +1,17 @@
+{
+  "name": "cordova-useragent",
+  "version": "1.0.0",
+  "description": "Cordova plugin for reading/changing the user agent of WebView client",
+  "cordova": {
+    "id": "im.ltdev.cordova.UserAgent",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "useragent"
+  ]
+}
